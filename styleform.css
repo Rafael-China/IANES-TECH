@@ -1,0 +1,546 @@
+* {
+    /* css reset */
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(72deg, #020433 51%, rgb(16, 175, 109) 89%);
+
+}
+
+.header1 {
+
+    background-color: none;
+    margin: 0px 0px 0px .5%;
+    width: 98.5%;
+    height: 200px;
+    border: 0px solid #020433;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+
+}
+
+.section1 {
+
+    /* float: left; */
+    /* background-color: #0c0e37; */
+    background-image: url(img/logo.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* opacity: 70%; */
+    border: 1px solid none;
+    height: 100px;
+    margin: 0px 0px 5px;
+    margin-left: 45%;
+
+    /* color: #fff;
+    box-shadow: 4px 4px 4px #fff;
+    border-radius: 5px; */
+    border-radius: 50px;
+
+}
+
+.insta {
+
+    float: left;
+    background-image: url(img/redes-sociais/instagram.png);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 5px;
+    filter: invert(100%);
+
+}
+
+.twitter {
+
+    float: left;
+    background-image: url(img/redes-sociais/twitter.png);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 5px;
+    filter: invert(100%);
+
+}
+
+.whatsapp {
+
+    float: left;
+    background-image: url(img/redes-sociais/whatsapp.png);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 5px;
+    filter: invert(100%);
+
+}
+
+.youtube {
+
+    float: left;
+    background-image: url(img/redes-sociais/youtube.png);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 5px;
+    filter: invert(100%);
+
+}
+
+.a2 {
+
+    display: inline-block;
+    margin: 10px 0 0 20px;
+    padding: 20px 5px;
+    background-color: none;
+    color: #000;
+
+}
+
+.section2 {
+
+
+    /* background-color: #0c0e37; */
+    background-image: url(img/nome_logo.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    background-position: center;
+    /* opacity: 70%; */
+    border: 1px solid none;
+    width: 400px;
+    height: 60px;
+    /* color: #fff;
+    box-shadow: 4px 4px 4px #fff;
+    border-radius: 5px; */
+    font-weight: bolder;
+    font-size: 10px;
+    margin-left: 35%;
+    border-radius: 50px;
+
+}
+
+.img {
+
+    width: 40px;
+    cursor: pointer;
+    filter: invert(100%);
+
+}
+
+input[type="checkbox"] {
+
+    display: none;
+
+}
+
+#chec {
+    display: none;
+}
+
+.ul1 {
+
+    list-style: none;
+
+}
+
+.nav2 {
+
+    background-color: rgba(0, 238, 119, 0.5);
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    left: -350px;
+    transition: all .5s;
+
+}
+
+input[type="checkbox"]:checked~nav {
+
+    transform: translateX(350px);
+    z-index: 1;
+
+}
+
+.ul1 {
+
+    position: absolute;
+    top: 70px;
+    width: 100%;
+
+}
+
+.a1 {
+
+    display: block;
+    padding: 20px 5px;
+    color: #fff;
+
+}
+
+.a1:hover {
+
+    background-color: rgb(98, 138, 239);
+    color: #000;
+    font-weight: bolder;
+
+}
+
+.label1 {
+
+    z-index: 2;
+    padding: 15px;
+    position: absolute;
+
+}
+
+.Copyright {
+
+    margin: 50% 0 0 0;
+    padding: 20px 5px;
+    color: #fff;
+
+}
+
+/* -------------------------------------------------------- */
+
+.button1 {
+
+    float: right;
+    border: 1px solid none;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/lua.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 25px;
+    filter: invert(1);
+
+}
+
+.relogio {
+
+    float: right;
+    margin-right: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: 1px solid none;
+    border-radius: 3px;
+    margin-top: 25px;
+
+}
+
+.relogio div {
+
+    width: 83px;
+    height: 40px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0c0e37(0, 0, 0, .6);
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+
+}
+
+.relogio span {
+
+    font-weight: bolder;
+
+}
+
+/* ------------------------------------- */
+
+.anulo {
+
+    cursor: default;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------- Form ---------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+.legendprova {
+
+    width: 90%;
+    border: 2px solid #2ecc71;
+    border-radius: 50px;
+    background-color: #2ecc71;
+    margin: 0 auto;
+
+}
+
+.questions {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid #0a0d4e;
+    border-radius: 50px;
+    background-color: #0a0d4e;
+
+}
+
+/* .textprova {
+
+    width: 90%;
+    border: 2px solid #0a0d4e;
+    background-color: #0a0d4e; */
+
+
+
+.hr1 {
+
+    margin: 10px;
+    border-top: 2px dashed #000000;
+
+}
+
+
+.tableform {
+
+    width: 50vw;
+    height: 100vh;
+    margin: 15px 0 0 25%;
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(193, 192, 207);
+    padding: 20px;
+    border: 10px solid #020433;
+
+}
+
+#cabeçalho {
+
+    margin-top: 10px;
+    margin-left: 17%;
+    border: 2px solid #2ecc71;
+    border-radius: 10px;
+    background-color: #2ecc71;
+
+}
+
+.botoes {
+
+    background-color: #020433;
+    color: #fff;
+    font-size: 14px;
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15%;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------- Responsive ---------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 30%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 98.5%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .section1 {
+
+        float: none;
+        width: 15%;
+        margin: 0 auto;
+
+    }
+
+    .section2 {
+
+        float: none;
+        width: 40%;
+        margin: 0 auto;
+
+    }
+
+    .nav2 {
+
+        background-color: rgba(0, 238, 119, 0.5);
+        width: 350px;
+        height: 100vh;
+        position: absolute;
+        left: -350px;
+        transition: all .5s;
+
+    }
+
+    .relogio {
+
+        float: none;
+        margin: 0 auto;
+
+    }
+
+    .aside1 {
+
+        float: none;
+        margin: 20px 0 0 0;
+        width: 100vw;
+
+    }
+
+    .section4 {
+
+        float: none;
+        margin: 0 auto;
+        width: 100vw;
+
+    }
+
+    .navigation {
+
+        float: none;
+        margin: 83% 0 0 0;
+        width: 40vw;
+
+    }
+
+    #slide1:checked~.s1 {
+
+        margin-left: 0;
+
+    }
+
+
+    #slide2:checked~.s1 {
+
+        margin-left: -25%;
+
+    }
+
+    #slide3:checked~.s1 {
+
+        margin-left: -70%;
+
+
+    }
+
+    #slide4:checked~.s1 {
+
+        margin-left: -175%;
+
+    }
+
+    #slide5:checked~.s1 {
+
+        margin-left: 0;
+
+    }
+
+    .section5 {
+
+        width: 100vw;
+        margin: auto;
+        height: auto;
+
+    }
+
+    .section6 {
+
+        width: 100vw;
+        margin: auto;
+        height: auto;
+
+    }
+
+    .tableform {
+
+        width: auto;
+        height: auto;
+        margin: 10px 0;
+        color: #000;
+        text-align: justify;
+        background-color: #fff;
+        padding: 10px;
+    
+    }
+    
+    .botoes {
+    
+        background-color: #020433;
+        color: #fff;
+        width: auto;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+        margin: 5px 0;
+    
+    }
+
+
+
+}

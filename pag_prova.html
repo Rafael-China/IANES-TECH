@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleform.css">
+    <title> Ianes Tech</title>
+
+</head>
+
+<body>
+
+    <input type="checkbox" id="chec">
+    <label for="chec" class="label1">
+
+        <img src="img/menu.png" class="img">
+
+    </label>
+
+    <nav class="nav2 col-2">
+
+        <ul class="ul1" col-6>
+
+            <li><a href="index.html" class="a1">MENU PRINCIPAL</a></li>
+            <li><a href="pag_video.html" class="a1">AULAS GRAVADAS</a></li>
+            <li><a href="pag_reconhecimento.html" class="a1">PROVA</a></li>
+            <li><a href="pag_certificado.html" class="a1">CERTIFICADO</a></li>
+            <li><a href="pag_ajuda.html" class="a1">AJUDA</a></li>
+            <li><a href="pag_login.html" class="a1">LOGOUT</a></li>
+            <li><a href="https://instagram.com/ianestech?igshid=YmMyMTA2M2Y=" class="a2 insta"></a></li>
+            <li><a href="https://twitter.com" class="a2 twitter"></a></li>
+            <li><a href="https://whatsapp.com" class="a2 whatsapp"></a></li>
+            <li><a href="https://youtube.com" class="a2 youtube"></a></li>
+            <li class="Copyright"> Copyright © 2022 </li>
+
+        </ul>
+
+    </nav>
+
+    <header class="header1 col-12">
+
+        <a href="index.html">
+            
+            <section class="section1 col-1">
+
+            </section>
+        </a>
+
+        <a href="index.html">
+            <section class="section2 col-4">
+        </a>
+
+        </section>
+
+        <!-- <button class="button1"></button>-->
+
+        <div class="relogio col-3">
+
+            <div>
+
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+
+            </div>
+
+            <div>
+
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+
+            </div>
+
+            <div>
+
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <br /><br />
+
+    <table class="tableform">
+        <tr>
+            <td>
+                <fieldset class="fieldset1">
+                    <legend class="legendprova" align="center">
+                        <font color="white"> <strong> PROVA FINAL </strong></font>
+                    </legend>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend class="legendprova" align="center">
+                            <font color="020433"> Informe seus Dados </font>
+                        </legend>
+                        <form action="enviar.php" method="post " name="exemplo">
+
+                            <table id="cabeçalho">
+                                <tr>
+                                    <td><label> Nome Completo: </label> </td>
+                                    <td><input type="text" id="nome" name="nome" size="30" required /> </td>
+                                </tr>
+                                <tr>
+                                    <td><label> E-mail: </label> </td>
+                                    <td><input type="email" id="mail" name="mail" size="30" required /></td>
+                                </tr>
+                            </table>
+                    </fieldset>
+
+                    <br />
+
+                    <hr class="hr1" />
+
+                    <br>
+
+
+                    <table>
+                        <tr>
+                            <label class="questions" for="nome">
+                                <font color="white"> Questão 1: </font>
+                            </label> <br /><br />
+                            <td class="textprova">
+
+                                <label>
+                                    <font color="black">
+                                        Um usuário de um computador com Windows 7 está utilizando o navegador Google
+                                        Chrome, versão
+                                        65, para realizar a busca por informações sobre cursos de informática.
+                                        Ao localizar uma página com informações interessantes, o usuário decide por
+                                        salvar a página.
+                                        Nessa situação, um dos tipos de salvamento da página é: Página da web...
+                                    </font>
+                                </label><br /><br>
+
+                        <tr>
+                            <td><label> Clique em uma opção abaixo para responder a questão: </label></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <br>
+                                <label><input type="radio" id="q1" name="q1" required> A) Somente HTML </label><br>
+                                <label><input type="radio" id="q1" name="q1" required> B) Imagem JPEG </label><br>
+                                <label><input type="radio" id="q1" name="q1" required> C) Formato PDF </label><br>
+                                <label><input type="radio" id="q1" name="q1" required> D) Somente texto </label><br>
+
+                                <br />
+                                <hr class="hr1">
+                                <br />
+
+                            </td>
+                        </tr>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 2: </font>
+                </label> <br><br>
+                <label> Assinale a alternativa <font color="red"> INCORRETA </font>: </label> <br /><br />
+                <img src="img/questao2.png" /> <br /><br />
+                <label><input type="radio" id="q2" name="q2" required> A) O código HTML está incompleto </label><br>
+                <label><input type="radio" id="q2" name="q2" required> B) O Título será apresentado em negrito na tela
+                </label><br>
+                <label><input type="radio" id="q2" name="q2" required> C) A renderização irá depender de cada navegador
+                </label><br>
+                <label><input type="radio" id="q2" name="q2" required> D) A tag HEAD está incompleta </label><br>
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 3: </font>
+                </label> <br><br>
+                <label> Assinale a alternativa <font color="limegreen"> CORRETA: </font></label> <br /><br />
+                <label><input type="radio" id="q3" name="q3" required> A) HTML é um programa que favorece o
+                    desenvolvimento de arquivos CSS.</label><br>
+                <label><input type="radio" id="q3" name="q3" required> B) HTML e CSS são as tecnologias utilizadas na
+                    construção de páginas da Web:HTML (HTML e XHTML) para a estrutura, CSS para o estilo e layout,
+                    incluindo WebFonts</label><br>
+                <label><input type="radio" id="q3" name="q3" required> C) Ambos são os conceitos fundamentais aplicados
+                    em dados abertos conectados</label><br>
+                <label><input type="radio" id="q3" name="q3" required> D) CSS é uma linguagem de programação poderosa e
+                    requer HTML para seu funcionamento.</label><br>
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 4: </font>
+                </label><br /><br />
+                <label>
+
+                    Analise as recomendações abaixo, identificando se são <font color="#2ecc71"> CORRETAS </font> ou
+                    </font color="red">INCORRETAS</font> do ponto de vista construção de um site com acessibilidade e de
+                    acordo com o EMAG. <br><br>
+                    I. É recomendável disponibilizar o bloco do conteúdo principal da página antes do bloco de menu.
+                    <br />
+                    II. A validação de códigos HTML e das folhas de estilo é sugerida como passos de avaliação de
+                    acessibilidade. </label> <br />
+                III. Assegure-se que cores como vermelho e verde sejam usadas para destacar elementos na página.
+                <br /><br />
+                Quais estão corretas?
+
+                </label><br><br>
+                <label><input type="radio" id="q4" name="q4" required> A) Apenas I </label><br>
+                <label><input type="radio" id="q4" name="q4" required> B) Apenas II </label><br>
+                <label><input type="radio" id="q4" name="q4" required> C) Apenas III </label><br>
+                <label><input type="radio" id="q4" name="q4" required> D) Apenas I e II </label><br>
+                <label><input type="radio" id="q4" name="q4" required> D) Apenas I , II , III </label><br>
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 5: </font>
+                </label><br /><br />
+                <label>
+
+                    Acerca de tecnologias, ferramentas e procedimentos associados à
+                    Internet e à intranet, julgue os itens
+                    ubsequentes. O hipertexto consiste em um sistema de base de dados que integra
+                    eficientemente objetos de
+                    iferentes tipos, tais como texto, imagens, vídeos, sons e aplicativo. <br /><br />
+                    Sobre a afirmação acima, podemos afirmar que é uma afirmação:
+
+                </label><br /><br />
+                <label><input type="radio" id="q5" name="q5" required> A) Correta </label><br />
+                <label><input type="radio" id="q5" name="q5" required> B) Falsa </label><br />
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 6: </font>
+                </label><br /><br />
+                <label>
+
+                    Acerca das tecnologias e ferramentas utilizadas em ambientes de
+                    intranet e Internet, julgue os próximos
+                    ens. O protocolo HTTP permite o acesso a páginas em uma intranet com o uso de um
+                    navegador.<br /><br />
+                    Sobre a afirmação acima, podemos afirmar que é uma afirmação:
+
+                </label><br /><br />
+                <label><input type="radio" id="q6" name="q6" required> A) Correta </label><br />
+                <label><input type="radio" id="q6" name="q6" required> B) Falsa </label><br />
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 7: </font>
+                </label><br /><br />
+                <label>
+
+                    HTML é uma linguagem de marcação que descreve a estrutura de um
+                    documento. Essa linguagem é utilizada
+                    ara desenvolver páginas Web. Sobre o HTML seguem-se três afirmações: <br><br>
+                    I - Páginas criadas em HTML sempre são visualizadas da mesma forma em navegadores
+                    diferentes, mesmo quando executados em plataformas de hardware diferentes. <br>
+                    II - As páginas escritas em HTML são arquivos de texto no formato ASCII. <br>
+                    III - O HTML possui um conjunto previamente definido de tags, no entanto
+                    o usuário pode criar as suas próprias tags. <br><br>
+                    É correto apenas o que se afirma em:
+
+                </label><br><br>
+                <label><input type="radio" id="q7" name="q7" required> A) Apenas I </label><br>
+                <label><input type="radio" id="q7" name="q7" required> B) Apenas II </label><br>
+                <label><input type="radio" id="q7" name="q7" required> C) Apenas III </label><br>
+                <label><input type="radio" id="q7" name="q7" required> D) Apenas I e II </label><br>
+                <label><input type="radio" id="q7" name="q7" required> D) Apenas II e III </label><br>
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 8: </font>
+                </label><br /><br />
+                <label>
+
+                    Em relação aos conceitos de redes de computadores e Internet,
+                    julgue os itens que se seguem. O HTML Hypertext Markup Language) é uma linguagem usada para acessar
+                    dados na Web.
+
+                </label><br><br>
+                <label><input type="radio" id="q8" name="q8" required> A) Correto </label><br />
+                <label><input type="radio" id="q8" name="q8" required> B) Falso </label><br />
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 9: </font>
+                </label><br /><br />
+                <label>
+
+                    A respeito de conceitos relacionados à Internet, julgue os
+                    itens que se seguem. <br />
+                    O termo html corresponde a uma linguagem de programação que permite a elaboração de páginas da
+                    Web que não tenham figura, mas não permite elaborar páginas da Web que contenham figuras, tabelas ou
+                    hyperlinks.
+
+                </label><br><br>
+
+                <label><input type="radio" id="q9" name="q9" required> A) Correto </label><br />
+                <label><input type="radio" id="q9" name="q9" required> B) Falso </label><br />
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+                <label class="questions" for="nome">
+                    <font color="white"> Questão 10: </font>
+                </label><br /><br />
+                <label>
+
+                    Para inserir o valor de uma variável de ambiente em uma páginaHTML utiliza-se a diretiva SSI
+
+                </label><br><br>
+                <label><input type="radio" id="q1" name="q1" required> A) #include. </label><br>
+                <label><input type="radio" id="q1" name="q1" required> B) #size </label><br>
+                <label><input type="radio" id="q1" name="q1" required> C) #valor </label><br>
+                <label><input type="radio" id="q1" name="q1" required> D) #echo </label><br>
+                <label><input type="radio" id="q1" name="q1" required> D) #config </label><br>
+
+                <br />
+                <hr class="hr1">
+                <br />
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><br>
+                <input type="submit" id="enviar" name="enviar" value="Enviar" required class="botoes">
+                <input type="reset" id="limpar" name="limpar" value="Limpar" required class="botoes">
+            </td>
+
+        </tr>
+    </table>
+    </form>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+    <script src="assents/js/script.js"></script>
+</body>
+
+</html>

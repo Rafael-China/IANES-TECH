@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Ianes Tech </title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body alink="#fff" link="#fff" vlink="#fff">
+
+    <main class="mainlogin">
+
+        <form class="form1">
+
+            <h3> Login </h3>
+            <label>Email</label>
+            <input id="email" type="text" name="email" placeholder="Seu e-mail...">
+            <label>Senha</label>
+            <input id="password" type="password" name="senha" placeholder="Sua senha...">
+            <input id="submit" type="submit" name="acao1" onclick="verificaLogin()" value="Enviar">
+            <hr class="hr1">
+            <a href="pag_criarconta.html" class="a2"> Criar conta </a>
+
+        </form>
+
+    </main>
+
+</body>
+
+<script>
+
+    function jumpto_pagina_inicial() { window.location.href = "pag_inicial.html"; }
+
+    function verificaLogin() {
+
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        for (let i = 0; i < localStorage.length; i++) {
+            
+            let id = localStorage.key(i);
+            let dados = localStorage.getItem(id);
+            let user;
+
+            try {
+
+                user = JSON.parse(dados);
+
+            } catch (e) {
+
+                user = "";
+
+            }
+
+            if (email == user.email_) {
+                if (password != "") {
+                    if (password == user.password_) {
+
+                        window.location.href = "pag_inicial.html";
+                        alert("Bem vindo");
+
+                    }
+                }
+                
+            }
+
+        }
+
+    }
+
+</script>
+
+</html>
