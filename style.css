@@ -251,7 +251,7 @@ input[type="checkbox"]:checked~nav {
 
 .relogio div {
 
-    width: 83px;
+    width: 100px;
     height: 40px;
     padding: 2px;
     display: flex;
